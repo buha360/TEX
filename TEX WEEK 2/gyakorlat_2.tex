@@ -1,0 +1,83 @@
+\documentclass[twocolumn]{book}
+\usepackage[english, magyar]{babel}
+\usepackage{t1enc}
+\usepackage{hulipsum}
+\usepackage[inner=3cm,outer=5cm]{geometry}
+\usepackage{fancyhdr}
+\geometry{bindingoffset=0cm}
+\geometry{marginparwidth=3cm, marginparsep=0.5cm}
+\setcounter{secnumdepth}{5}
+\frenchspacing
+
+\begin{document}
+	\pagestyle{headings}
+	\begin{titlepage}
+		\title{\textsc{\huge{LaTeX}}}
+		\author{\textit{\Large{2.gyak}}}
+		\maketitle
+		\pagenumbering{roman}
+	\end{titlepage}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\setcounter{tocdepth}{5}
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{myheadings}
+\section{feladat}\footnote{Section footnote}
+A titlepage elkészítése a maketitle paranccsal. A subsection-ben a számozás a pont után folytatódik.
+\subsection{Első}
+\hulipsum[2]
+\clearpage
+\subsection{Második}
+\hulipsum[3]
+\section{Hosszabb}
+\part{Első szint}
+\section{Második szint}
+\subsection{Harmadik szint}
+\subsubsection{Negyedik szint}
+\paragraph{Ötödik}
+\subparagraph{Hatodik}
+
+\appendix
+
+\pagestyle{fancy}
+\section{section}
+\begin{quote}
+	\hulipsum[1-2]
+\end{quote}
+\subsection{subsection}
+\section{section}
+\begin{quotation}
+	\hulipsum[1-2]
+\end{quotation}
+
+\clearpage
+\marginpar{Margó}
+\subsection{Tiszta szívvel}
+\begin{verse}
+	\begin{center}
+		Nincsen apám, se anyám,\\
+		se istenem, se hazám,\\
+		se bölcsőm, se szemfedőm,\\
+		se csókom, se szeretőm.\\
+		
+		Harmadnapja nem eszek,\\
+		se sokat, se keveset.\\
+		Húsz esztendőm hatalom,\\
+		húsz esztendőm eladom.\\
+		
+		Hogyha nem kell senkinek,\\
+		hát az ördög veszi meg.\\
+		Tiszta szívvel betörök,\\
+		ha kell, embert is ölök.\\
+		
+		Elfognak és felkötnek,\\
+		áldott földdel elfödnek\\
+		s halált hozó fű terem\\
+		gyönyörűszép szívemen.\\
+	\end{center}
+\end{verse}
+
+\end{document}
