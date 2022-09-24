@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[inline]{enumitem}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\usepackage{hulipsum}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\newlist{enuma}{enumerate}{5}
+\setlist[enuma]{label=\alph*)}
+	
+	
+\begin{document}
+	\label{list1}
+	\begin{tabular}{c||ccc|}
+		& egy & ketto & harom \\ \hline
+		\multirow{2}{3cm}{Hello\\világ} & negy & ot & het \\ 
+		&  &  &  \\ \cline{2-4}
+		& het  & nyolc & kilenc\\ \cline{2-2} \cline{4-4}
+		\multirow{2}{3cm}{lorum\\ipse}& tiz & & tizengy \\ 
+		& & & \\\hline
+	\end{tabular}
+	
+	\label{list2}
+	\begin{tabular}{||ccc|}
+		\rowcolor{cyan}
+		egy & ketto & harom \\ \hline
+		\rowcolor{cyan}
+		negy & ot & het \\ 
+		\rowcolor{red}
+		&  &  \\ \cline{1-3}
+		\rowcolor{red}
+		het  & nyolc & kilenc\\ \cline{1-1} \cline{3-3}
+		\rowcolor{cyan}
+		tiz & & tizengy \\ 
+		\rowcolor{cyan}
+		& & \\\hline
+	\end{tabular}
+	
+	
+	\label{list3}
+	\begin{tabular}{r!{\color{red}\vline}cc|}
+		egy & \multicolumn{2}{c|}{ketto}\\ \hline
+		\multirow{2}{1cm}{negy} & öt \vline& hat\\ \cline{2-3}
+		& \multicolumn{2}{c|}{\multirow{2}{1cm}{nyolc}}\\ \cline{1-1}
+		tiz & &\\ \hline
+	\end{tabular}
+\end{document}
