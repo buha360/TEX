@@ -1,0 +1,38 @@
+\begin{theindex}
+
+  \item ékezet, \hyperpage{5}
+  \item ereklye, \hyperindexformat{\see{relikvia}}{5}
+
+  \indexspace
+
+  \item ittindex, 4
+  \item ittindexk, \hyperpage{3}
+
+  \indexspace
+
+  \item kjkjkl, \hyperpage{1}
+
+  \indexspace
+
+  \item listak
+    \subitem enumerate
+      \subsubitem szamozas, \hyperpage{5}
+    \subitem itemize, \hyperpage{5}
+
+  \indexspace
+
+  \item nem, \hyperpage{1}, \hyperpage{5}
+
+  \indexspace
+
+  \item relikvia, \hyperpage{4}
+
+  \indexspace
+
+  \item ujra, \hyperpage{1}
+
+  \indexspace
+
+  \item \textit{valami}, \hyperpage{5}
+
+\end{theindex}

@@ -1,0 +1,12 @@
+This is makeindex, version 2.16 [MiKTeX 22.8.28].
+Scanning input file gyak_1004_5.idx....done (12 entries accepted, 0 rejected).
+Sorting entries....done (58 comparisons).
+Generating output file gyak_1004_5.ind....
+## Warning (input = gyak_1004_5.idx, line = 5; output = gyak_1004_5.ind, line = 8):
+   -- Unmatched range closing operator ).
+
+## Warning (input = gyak_1004_5.idx, line = 4; output = gyak_1004_5.ind, line = 9):
+   -- Unmatched range opening operator (.
+done (38 lines written, 2 warnings).
+Output written in gyak_1004_5.ind.
+Transcript written in gyak_1004_5.ilg.

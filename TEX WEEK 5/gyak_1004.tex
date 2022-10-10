@@ -1,0 +1,32 @@
+\documentclass{book}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+\usepackage[backref=page]{hyperref}
+
+\title{\huge{\LaTeX}}
+\author{Buha Milán}
+
+\begin{document}
+	\frontmatter
+	\maketitle
+	\tableofcontents
+	\mainmatter
+	\chapter{Első}
+	\hulipsum[3]
+	\cite{abrharber03}
+	\cite{bujfaz}
+	\hulipsum[1]
+	\cite{g4gbin}
+	\chapter{Második}
+	\hulipsum
+	\chapter{Harmadik}
+	\hulipsum[2]
+	\cite{knuth84}
+	\cite{lamport94}
+	\cite{tomacs21}
+	\backmatter
+	\bibliographystyle{plain}
+	\bibliography{ltx}
+\end{document}
