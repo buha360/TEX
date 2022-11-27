@@ -1,0 +1,12 @@
+\select@language {magyar} \beamer@sectionintoc {1}{Bevezetés}{3}{0}{1}
+\select@language {magyar} \beamer@subsectionintoc {1}{1}{Története}{4}{0}{1}
+\select@language {magyar} \beamer@subsectionintoc {1}{2}{GPU-k fejlődése}{6}{0}{1}
+\select@language {magyar} \beamer@sectionintoc {2}{Felépítés}{9}{0}{2}
+\select@language {magyar} \beamer@subsectionintoc {2}{1}{GPU}{10}{0}{2}
+\select@language {magyar} \beamer@subsectionintoc {2}{2}{Video memória}{11}{0}{2}
+\select@language {magyar} \beamer@subsectionintoc {2}{3}{Csatlakozók}{12}{0}{2}
+\select@language {magyar} \beamer@subsectionintoc {2}{4}{Előnyök-Hátrányok}{16}{0}{2}
+\select@language {magyar} \beamer@sectionintoc {3}{Beépítés}{17}{0}{3}
+\select@language {magyar} \beamer@sectionintoc {4}{Ray tracing}{18}{0}{4}
+\select@language {magyar} \beamer@sectionintoc {5}{Számítási teljesítmény}{29}{0}{5}
+\select@language {magyar} \beamer@sectionintoc {6}{RTX Videó}{30}{0}{6}

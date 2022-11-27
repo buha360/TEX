@@ -1,0 +1,19 @@
+\hspace*{-30px}
+\begin{tikzpicture}[ampersand replacement=\&]
+
+\matrix (first) [table,text width=3em]
+{
+\& HDMI 1.2 \& HDMI 2.0 \& HDMI 2.1 \& DP 1.2 \& DP 1.3 \& DP 1.4 \& DP 2.0\\
+1080p@120Hz   \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51}\\
+1440p@30Hz   \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51}\\
+1440p@60Hz   \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51}\\
+1440p@120Hz   \& \ding{53} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51}\\
+4k@30Hz   \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51}\\
+4k@60Hz   \& \ding{53} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51} \& \ding{51}\\
+4k@120Hz   \& \ding{53} \& \ding{53} \& \ding{51} \& \ding{53} \& \ding{51} \& \ding{51} \& \ding{51}\\
+8k@30Hz   \& \ding{53} \& \ding{53} \& \ding{51} \& \ding{53} \& \ding{51} \& \ding{51} \& \ding{51}\\
+8k@60Hz   \& \ding{53} \& \ding{53} \& \ding{51} \& \ding{53} \& \ding{53} \& \ding{51} \& \ding{51}\\
+8k@120Hz   \& \ding{53} \& \ding{53} \& \ding{51} \& \ding{53} \& \ding{53} \& \ding{53} \& \ding{51}\\
+};
+
+\end{tikzpicture}
